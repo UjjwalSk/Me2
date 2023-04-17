@@ -11,7 +11,7 @@ const Home = () => {
     };
     return (
         <div className="App">
-            <img src="/logos.svg" alt="logo" width={400} />
+            <img src="/logos.svg" alt="logo" width={400}/>
             <p><code>Enter or Create a Room ID to join</code></p> <br />
             <form onSubmit={submit}>
                 <input type="text" ref={roomId} placeholder="Enter Room ID" required />

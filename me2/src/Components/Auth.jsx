@@ -3,11 +3,12 @@ import "./Auth.css";
 import AuthContext from "../context/AuthContext";
 import axios from "../Api";
 import { useParams } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 
 const Auth = () => {
     const [flag, setFlag] = useState(true);
     const ctx = useContext(AuthContext);
-
+    const navigate = useNavigate();
     const nameRef = useRef(null);
     const usernameRef = useRef(null);
     const emailRef = useRef(null);
@@ -30,7 +31,7 @@ const Auth = () => {
 
     return (
         <div className="auth-container App">
-            <div className="left-pane">
+            <div className="left-pane" onClick={() => navigate("/new")} >
                 <h1 className="auth-title">
                     <img src="/logo.svg" alt="logo" />
                     Welcome To Me2
