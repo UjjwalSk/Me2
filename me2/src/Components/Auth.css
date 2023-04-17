@@ -1,0 +1,71 @@
+.rightPane * {
+    color: white !important;
+}
+
+.auth-title img{
+    width: 65px;
+    height: 65px;
+    border-radius: 50%;
+    vertical-align: middle;
+    margin-right: 5px;
+}
+
+.auth-form input{
+    display:block;
+    margin: 0 auto;
+    width: 350px;
+    margin-bottom: 20px;
+}
+
+.MuiOutlinedInput-root.Mui-Focused MuiOutlinedInput-notchedOutline {
+    border-color: red !important;
+}
+
+.MuiOutlinedInput-notchedOutline {
+    border-color: white !important;
+}
+
+.rightPane button:hover {
+    background: rgb(15, 116, 210) !important;
+}
+
+.toggler {
+    text-align: center;
+}
+.toggler:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+/* 
+
+
+.head svg{
+    transform:scale(1.5);
+}
+
+.auth input{
+    display:block;
+    padding:10px 5px;
+    background:white;
+    border-bottom:2px solid #333232;
+    border:none;
+    font-size:1.1rem;
+    margin:20px 0;
+    outline:none;
+}
+
+.tweetBox__tweetButton {
+    background-color: rgb(29 155 240) !important;
+    border: none !important;
+    color: white !important;
+
+    text-transform: inherit !important;
+    border-radius: 30px !important;
+    width: 80px;
+    height: 40px !important;
+    margin-top: 20px !important;
+    margin-right:20px !important;
+    margin-left:30px !important;
+}
+   */
